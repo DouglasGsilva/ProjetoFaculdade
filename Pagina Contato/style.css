@@ -126,3 +126,23 @@ footer p {
     margin: auto;
     font-size: 20px;
 }
+
+#btnTopo {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 100;
+  font-size: 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: none; /* escondido até a rolagem */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+#btnTopo:hover {
+  background-color: #555;
+}
